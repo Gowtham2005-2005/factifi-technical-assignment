@@ -120,16 +120,6 @@ curl -X POST http://localhost:8000/api/v1/fact-check \
 2. Enter a claim in the fact-check form and submit
 3. View the detailed report once processing is complete
 
-## Development
-
-### Running Tests
-
-Backend tests:
-
-```bash
-# From project root
-pytest
-```
 
 ### API Documentation
 
