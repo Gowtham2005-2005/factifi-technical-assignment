@@ -1,0 +1,37 @@
+# Test Cases for Fact-Checking API
+
+## False Claims
+- chicken causes infertility
+- earth is flat
+- vitamin D completely prevents COVID-19
+- 5G networks cause cancer
+- vaccines cause autism
+- drinking bleach cures diseases
+- humans only use 10% of their brain
+- lightning never strikes the same place twice
+- sugar causes hyperactivity in children
+- cracking knuckles causes arthritis
+
+## Misleading Claims (Partially True but Missing Context)
+- vitamin D improves COVID-19 outcomes
+- earth is not exactly a sphere
+- coffee stunts growth
+- eating carrots improves night vision
+- humans have five senses
+- goldfish have three-second memories
+- humans evolved from monkeys
+- sugar is more addictive than cocaine
+- we lose most body heat through our heads
+- reading in dim light damages eyesight
+
+## True Claims
+- earth orbits the sun
+- smoking increases risk of lung cancer
+- water is composed of hydrogen and oxygen
+- exercise generally improves physical health
+- humans share common ancestry with apes
+- vitamin C is important for immune function
+- excessive alcohol consumption can damage the liver
+- vaccination has helped eliminate numerous diseases
+- antibiotics don't work against viruses
+- regular handwashing helps prevent disease spread

@@ -137,3 +137,7 @@ When running the API, access the interactive documentation at:
 
 - Swagger UI: http://localhost:8000/docs
 - ReDoc: http://localhost:8000/redoc
+
+## Test API Tool
+
+The `test_api.py` script provides an automated way to validate the fact-checking API against a suite of test cases. It reads claims from `test_cases.txt`, which contains a curated set of true, false, and misleading statements, then sends each claim to the API endpoint for evaluation. The script uses Python's `requests` library to make HTTP calls and manages result storage in the `test_results` directory. Each response is saved as a JSON file for later analysis. The tool includes configurable parameters for API URL, request timeouts, and delays between requests to prevent rate limiting. It also provides clear console output showing progress and assessment results for each claim. This testing utility is invaluable for validating API functionality, ensuring consistency in fact-checking assessments, and identifying potential issues in the system's response to different types of claims.
