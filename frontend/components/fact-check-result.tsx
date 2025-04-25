@@ -131,6 +131,10 @@ export function FactCheckResult({ result, onViewFullReport }: FactCheckResultPro
                   <AlertDescription>
                     <ul className="mt-2 space-y-1 text-sm">
                       <li>
+                        <span className="font-medium text-foreground">Note</span>: A high score on the 'Lacks Evidence' criterion indicates strong confidence that the assessment lacks sufficient evidence. Conversely, a high score on the 'Supported' criterion reflects strong confidence that the assessment is well-supported. The same logic applies to medium and low scores accordingly.
+                      </li>
+                      <br></br> 
+                      <li>
                         <span className="font-medium text-green-600 dark:text-green-400">High</span>: Research directly
                         addresses the claim with strong evidence
                       </li>
